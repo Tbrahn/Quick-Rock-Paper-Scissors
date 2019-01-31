@@ -3,16 +3,20 @@
 <head>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
 
 	<title>Rock Paper Scissors</title>
 </head>
 <body>
 
 	<div class="container">
-		<h1 id="result"></h1>
-		<button id="rock">Rock</button>
-		<button id="paper">Paper</button>
-		<button id="scissors">Scissors</button>
+		<div class="jumbotron">
+			<h1 id="result" class="display-1"></h1>
+			<h1 class="display-4">Make a choice!</h1>
+			<button id="rock" class="choice btn btn-secondary btn-lg">Rock</button>
+			<button id="paper" class="choice btn btn-secondary btn-lg">Paper</button>
+			<button id="scissors" class="choice btn btn-secondary btn-lg">Scissors</button>
+		</div>
 	</div>
 	
 	<script type="text/javascript" src=rps.js></script>

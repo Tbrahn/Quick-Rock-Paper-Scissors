@@ -1,1 +1,0 @@
-# Quick-Rock-Paper-Scissors

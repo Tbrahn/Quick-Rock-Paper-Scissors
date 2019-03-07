@@ -14,7 +14,7 @@ rock.addEventListener("click", function(){
 	} else if(compSelect == "scissors"){
 			result.textContent = "You Win!";
 	} else if(compSelect == "paper"){
-			result.textContent = "You lose!";
+			result.textContent = "You Lose!";
 
 	}
 });
@@ -27,7 +27,7 @@ paper.addEventListener("click", function(){
 	} else if(compSelect == "rock"){
 			result.textContent = "You Win!";
 	} else if(compSelect == "scissors"){
-			result.textContent = "You lose!";
+			result.textContent = "You Lose!";
 
 	}
 });
@@ -40,7 +40,7 @@ scissors.addEventListener("click", function(){
 	} else if(compSelect == "paper"){
 			result.textContent = "You Win!";
 	} else if(compSelect == "rock"){
-			result.textContent = "You lose!";
+			result.textContent = "You Lose!";
 
 	}
 });
